@@ -25,7 +25,7 @@ export default function AdminPage() {
   return (
     <div className="p-4 max-w-2xl mx-auto">
       <h1 className="text-2xl font-bold mb-4">Admin Page</h1>
-      {/* <table className="min-w-full border-collapse border border-gray-300">
+      <table className="min-w-full border-collapse border border-gray-300">
         <thead>
           <tr>
             <th className="border border-gray-300 p-2">Issue Type</th>
@@ -46,7 +46,7 @@ export default function AdminPage() {
             </tr>
           ))}
         </tbody>
-      </table> */}
+      </table>
     </div>
   );
 }
